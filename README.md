@@ -2,16 +2,16 @@ This repository contains files for ACM Hack's workshop on responsive web design 
 
 ## Getting Started
 
-First, run the development server:
+First, install [Node](https://nodejs.org/en/download) if you haven't already and then install the packages for starter code
+
+```bash
+npm install
+```
+
+Next, run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
