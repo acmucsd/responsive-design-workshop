@@ -48,21 +48,22 @@
    5. Create a vertical flexbox layout for the navbar links with the .links_show class
 */
 
-/* Uncomment this starter code! */
-/* @media {
-    .hamburger {
+@media screen and (max-width: 768px) {
+  .hamburger {
+    display: inline-block;
+  }
+  .nav_bar {
+    flex-direction: column;
+  }
 
-    }
-    .nav_bar {
+  .links {
+    display: none;
+  }
 
-    }
-
-    .links {
-
-    }
-
-    .links_show {
-      width: 100%;
-      background-color: lightgray;
-    }
-} */
+  .links_show {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: lightgray;
+  }
+}
