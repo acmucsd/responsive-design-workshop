@@ -1,0 +1,53 @@
+/* 
+   Activity 1: Use flexbox to create a column layout for the workshop card!
+   Here's some requirements for the card below
+   1. Column layout (info displayed vertically)
+   2. Center the items horizontally
+   3. Add a 'gap' to create spacing between each item in the .card class 
+   4. Add padding
+*/
+.card {
+  /* Add your styling here */
+  border-radius: 5px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.card_img {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+}
+
+.card_title {
+  font-size: 20px;
+  text-align: center;
+}
+
+/* 
+   Activity 1: Find a way to have the learn more button always stick 
+   to the bottom of the card!
+   Hint: We can have the description take up extra space in the flexbox so the button
+   can move down
+*/
+
+.card_descript {
+  /* Add your styling here */
+  font-size: 18px;
+}
+
+.card_button {
+  padding: 0.75rem;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  border-radius: 10px;
+  color: black;
+  background-color: #fcce9f;
+  font-size: 16px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.card_button :hover {
+  cursor: pointer;
+}

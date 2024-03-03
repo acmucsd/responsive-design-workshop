@@ -1,0 +1,68 @@
+.logo_bar {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.nav_bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.links > a,
+.links_show > a {
+  font-size: 24px;
+  color: black;
+  text-decoration: none;
+  padding: 0.75rem;
+}
+
+.logo {
+  width: 100%;
+  max-width: 3.5rem;
+  height: auto;
+}
+
+.title {
+  font-size: 2rem;
+}
+
+.hamburger {
+  display: none;
+}
+
+/* 
+   Activity 3: Use a media query to make the hamburger menu!
+   Here's some requirements for the media query below
+   1. Navbar styles should change for screen sizes 768 px and below 
+   2. Display the previous hidden .hamburger class (which contains hamburger menu icon)
+   3. Change the layout of the navbar to be vertical 
+   4. Hide the original .links class (which had the old horizontal styling for links)
+   5. Create a vertical flexbox layout for the navbar links with the .links_show class
+*/
+
+/* Uncomment this starter code! */
+/* @media {
+    .hamburger {
+
+    }
+    .nav_bar {
+
+    }
+
+    .links {
+
+    }
+
+    .links_show {
+      width: 100%;
+      background-color: lightgray;
+    }
+} */

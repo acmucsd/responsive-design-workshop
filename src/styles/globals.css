@@ -1,0 +1,12 @@
+/* Activity 4: Try changing the font-size to 80% and then 120% 
+   What does this do to the website? Notice what does and doesn't change. 
+   For elements that don't change, change their sizing to be relative!
+*/
+html,
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  font-size: 100%;
+}
