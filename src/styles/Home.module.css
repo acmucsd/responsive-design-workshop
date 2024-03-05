@@ -10,7 +10,7 @@
 /* 
    Activity 2: Use CSS grid to create a responsive grid layout for the cards!
    Here's some requirements for the grid below
-   1. Each row should have 3 cards with a minimum width of 320px each
+   1. Each row should have cards with a minimum width of 320px each
    2. Columns should automatically resize so there's more rows when screen size decreases 
    3. Add a 'gap' to create spacing between each item in the grid
 
