@@ -26,3 +26,6 @@ To learn more about Next.js, take a look at the following resources:
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can also check out [the ACM Hack website](https://hack.acmucsd.com/hack-school) for resources on HTML, CSS, and React/Next.js if you want to learn more!
+
+## Solutions
+For the activity solutions, there's a [solutions branch](https://github.com/acmucsd/responsive-design-workshop/tree/solutions) in this repo with the correct styling!
